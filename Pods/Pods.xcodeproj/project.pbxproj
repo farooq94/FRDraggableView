@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3257B97780D3124B2FDEBB57489016C5 /* HCVimeoVideoExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A60711836E638F5B66A38A708B853FF /* HCVimeoVideoExtractor.swift */; };
+		55791CAFD8C4F8D62C3CEA4C76D574D1 /* HCVimeoVideoExtractor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4736BA301FBF8BDF3A904DE1C3C7F3 /* HCVimeoVideoExtractor-dummy.m */; };
+		60AEC46D617AC52C0060231A07545F3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		7ED762304002C683F0E4E24DA3616D3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		895AF69A4B98F8C392E4079A232B6451 /* Pods-DraggableDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C627A0062C417CCD27E8B60F9293A850 /* Pods-DraggableDemo-dummy.m */; };
+		C2C1249A8C9B2C7FA15B6479F7660650 /* HCVimeoVideoExtractor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4105024DFC6C17065AEA004201AFF757 /* HCVimeoVideoExtractor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF8810859974B4A5394393F673CCC549 /* Pods-DraggableDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3317CAB1E283684AC1F8A0018193232 /* Pods-DraggableDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE70634B2CE6B164816753946CDEF881 /* HCVimeoVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135821A47A5DE04BC4DBD2D6805BB7F8 /* HCVimeoVideo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C792DEE891CE089E99BB3F17B5804E16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DE1299CA505436B4E0F257AA523605C;
+			remoteInfo = HCVimeoVideoExtractor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12657B8591CA6385A922E03A4D9DCD16 /* HCVimeoVideoExtractor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HCVimeoVideoExtractor-prefix.pch"; sourceTree = "<group>"; };
+		135821A47A5DE04BC4DBD2D6805BB7F8 /* HCVimeoVideo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HCVimeoVideo.swift; path = HCVimeoVideoExtractor/Classes/HCVimeoVideo.swift; sourceTree = "<group>"; };
+		167CB9743C8EDAE7B4557FB63D7A31BE /* Pods-DraggableDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DraggableDemo-Info.plist"; sourceTree = "<group>"; };
+		4105024DFC6C17065AEA004201AFF757 /* HCVimeoVideoExtractor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HCVimeoVideoExtractor-umbrella.h"; sourceTree = "<group>"; };
+		48C35D82F195DB0CF6F88E1B6A6CE1DC /* Pods-DraggableDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DraggableDemo.modulemap"; sourceTree = "<group>"; };
+		5C9ACF80F433FBB60DC8EF6F3F53F818 /* HCVimeoVideoExtractor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HCVimeoVideoExtractor.framework; path = HCVimeoVideoExtractor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6172DCEBA5BBD5E74221A88001ABDDAC /* Pods-DraggableDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DraggableDemo.release.xcconfig"; sourceTree = "<group>"; };
+		7A60711836E638F5B66A38A708B853FF /* HCVimeoVideoExtractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HCVimeoVideoExtractor.swift; path = HCVimeoVideoExtractor/Classes/HCVimeoVideoExtractor.swift; sourceTree = "<group>"; };
+		872381ACC17B8455EDB3E66A88885A65 /* Pods-DraggableDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DraggableDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5FB9C19C58CB422CF9A9A6D891B804E /* Pods-DraggableDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DraggableDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		A8F53571035AF4DA862E7C96F0C2409C /* HCVimeoVideoExtractor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HCVimeoVideoExtractor.xcconfig; sourceTree = "<group>"; };
+		AE4736BA301FBF8BDF3A904DE1C3C7F3 /* HCVimeoVideoExtractor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HCVimeoVideoExtractor-dummy.m"; sourceTree = "<group>"; };
+		BB6BC64614A1E84D7DFE9F9FF305D42C /* Pods_DraggableDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DraggableDemo.framework; path = "Pods-DraggableDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3BCA786FBDE42291BB0EF2877CB12B1 /* Pods-DraggableDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DraggableDemo-frameworks.sh"; sourceTree = "<group>"; };
+		C627A0062C417CCD27E8B60F9293A850 /* Pods-DraggableDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DraggableDemo-dummy.m"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CF11E59F964C4E40588D446932F378F2 /* HCVimeoVideoExtractor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HCVimeoVideoExtractor.modulemap; sourceTree = "<group>"; };
+		E3317CAB1E283684AC1F8A0018193232 /* Pods-DraggableDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DraggableDemo-umbrella.h"; sourceTree = "<group>"; };
+		F13C37501B72EF08C10811C1C8E2BC27 /* Pods-DraggableDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DraggableDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FD0FEEECC3A0CC711167FFBF69147D5A /* HCVimeoVideoExtractor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HCVimeoVideoExtractor-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24016F9D5BDE97DB5043429C4DC1CA75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60AEC46D617AC52C0060231A07545F3C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E9E8647B6B28D292E87A29990E49527 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ED762304002C683F0E4E24DA3616D3D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AA5FDDC62B32289A764894993EFDD7D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7AEC6A1652643F7B06146C6B6C67A51 /* Pods-DraggableDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		60F5ECE441BC66EB0CD87462611211CA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF11E59F964C4E40588D446932F378F2 /* HCVimeoVideoExtractor.modulemap */,
+				A8F53571035AF4DA862E7C96F0C2409C /* HCVimeoVideoExtractor.xcconfig */,
+				AE4736BA301FBF8BDF3A904DE1C3C7F3 /* HCVimeoVideoExtractor-dummy.m */,
+				FD0FEEECC3A0CC711167FFBF69147D5A /* HCVimeoVideoExtractor-Info.plist */,
+				12657B8591CA6385A922E03A4D9DCD16 /* HCVimeoVideoExtractor-prefix.pch */,
+				4105024DFC6C17065AEA004201AFF757 /* HCVimeoVideoExtractor-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HCVimeoVideoExtractor";
+			sourceTree = "<group>";
+		};
+		6F3EAA03D0A401CA0CE6464D99051379 /* HCVimeoVideoExtractor */ = {
+			isa = PBXGroup;
+			children = (
+				135821A47A5DE04BC4DBD2D6805BB7F8 /* HCVimeoVideo.swift */,
+				7A60711836E638F5B66A38A708B853FF /* HCVimeoVideoExtractor.swift */,
+				60F5ECE441BC66EB0CD87462611211CA /* Support Files */,
+			);
+			name = HCVimeoVideoExtractor;
+			path = HCVimeoVideoExtractor;
+			sourceTree = "<group>";
+		};
+		8DF947F14BF26714AC180FC45B8EF3E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C9ACF80F433FBB60DC8EF6F3F53F818 /* HCVimeoVideoExtractor.framework */,
+				BB6BC64614A1E84D7DFE9F9FF305D42C /* Pods_DraggableDemo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A7AEC6A1652643F7B06146C6B6C67A51 /* Pods-DraggableDemo */ = {
+			isa = PBXGroup;
+			children = (
+				48C35D82F195DB0CF6F88E1B6A6CE1DC /* Pods-DraggableDemo.modulemap */,
+				F13C37501B72EF08C10811C1C8E2BC27 /* Pods-DraggableDemo-acknowledgements.markdown */,
+				A5FB9C19C58CB422CF9A9A6D891B804E /* Pods-DraggableDemo-acknowledgements.plist */,
+				C627A0062C417CCD27E8B60F9293A850 /* Pods-DraggableDemo-dummy.m */,
+				C3BCA786FBDE42291BB0EF2877CB12B1 /* Pods-DraggableDemo-frameworks.sh */,
+				167CB9743C8EDAE7B4557FB63D7A31BE /* Pods-DraggableDemo-Info.plist */,
+				E3317CAB1E283684AC1F8A0018193232 /* Pods-DraggableDemo-umbrella.h */,
+				872381ACC17B8455EDB3E66A88885A65 /* Pods-DraggableDemo.debug.xcconfig */,
+				6172DCEBA5BBD5E74221A88001ABDDAC /* Pods-DraggableDemo.release.xcconfig */,
+			);
+			name = "Pods-DraggableDemo";
+			path = "Target Support Files/Pods-DraggableDemo";
+			sourceTree = "<group>";
+		};
+		B9C6A1A0ACFC4FAD7F6C2F0271567440 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F3EAA03D0A401CA0CE6464D99051379 /* HCVimeoVideoExtractor */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B9C6A1A0ACFC4FAD7F6C2F0271567440 /* Pods */,
+				8DF947F14BF26714AC180FC45B8EF3E0 /* Products */,
+				2AA5FDDC62B32289A764894993EFDD7D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		92129D45D185624A307E26A9988295BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF8810859974B4A5394393F673CCC549 /* Pods-DraggableDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE9148563347DA94ED137330F70E374D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2C1249A8C9B2C7FA15B6479F7660650 /* HCVimeoVideoExtractor-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0DE1299CA505436B4E0F257AA523605C /* HCVimeoVideoExtractor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBD00A858636BCACF04EFB929602A4A5 /* Build configuration list for PBXNativeTarget "HCVimeoVideoExtractor" */;
+			buildPhases = (
+				EE9148563347DA94ED137330F70E374D /* Headers */,
+				95BC43A5D17686667FC5F10B15AAA903 /* Sources */,
+				6E9E8647B6B28D292E87A29990E49527 /* Frameworks */,
+				F1E69D3A9D54CA42206275F1C48EBC52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HCVimeoVideoExtractor;
+			productName = HCVimeoVideoExtractor;
+			productReference = 5C9ACF80F433FBB60DC8EF6F3F53F818 /* HCVimeoVideoExtractor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ED8BCF16883C2635F44A62FCCE287731 /* Pods-DraggableDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB456B540F41923C116472B578576F99 /* Build configuration list for PBXNativeTarget "Pods-DraggableDemo" */;
+			buildPhases = (
+				92129D45D185624A307E26A9988295BE /* Headers */,
+				DFD5CA9C7887F3A36579E4565CA9403E /* Sources */,
+				24016F9D5BDE97DB5043429C4DC1CA75 /* Frameworks */,
+				5DCB64A2E013B406AD619DC375A32BB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0486D4A7E42258BE2A0C6352E85A20F /* PBXTargetDependency */,
+			);
+			name = "Pods-DraggableDemo";
+			productName = "Pods-DraggableDemo";
+			productReference = BB6BC64614A1E84D7DFE9F9FF305D42C /* Pods_DraggableDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8DF947F14BF26714AC180FC45B8EF3E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DE1299CA505436B4E0F257AA523605C /* HCVimeoVideoExtractor */,
+				ED8BCF16883C2635F44A62FCCE287731 /* Pods-DraggableDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DCB64A2E013B406AD619DC375A32BB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1E69D3A9D54CA42206275F1C48EBC52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95BC43A5D17686667FC5F10B15AAA903 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE70634B2CE6B164816753946CDEF881 /* HCVimeoVideo.swift in Sources */,
+				55791CAFD8C4F8D62C3CEA4C76D574D1 /* HCVimeoVideoExtractor-dummy.m in Sources */,
+				3257B97780D3124B2FDEBB57489016C5 /* HCVimeoVideoExtractor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD5CA9C7887F3A36579E4565CA9403E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				895AF69A4B98F8C392E4079A232B6451 /* Pods-DraggableDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0486D4A7E42258BE2A0C6352E85A20F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HCVimeoVideoExtractor;
+			target = 0DE1299CA505436B4E0F257AA523605C /* HCVimeoVideoExtractor */;
+			targetProxy = C792DEE891CE089E99BB3F17B5804E16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09CF4B787EE061FE18E3FEA5B844C04E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6172DCEBA5BBD5E74221A88001ABDDAC /* Pods-DraggableDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DraggableDemo/Pods-DraggableDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DraggableDemo/Pods-DraggableDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0F4C30DD4B298B79752CB2C52A98F2BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8F53571035AF4DA862E7C96F0C2409C /* HCVimeoVideoExtractor.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HCVimeoVideoExtractor/HCVimeoVideoExtractor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HCVimeoVideoExtractor/HCVimeoVideoExtractor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HCVimeoVideoExtractor/HCVimeoVideoExtractor.modulemap";
+				PRODUCT_MODULE_NAME = HCVimeoVideoExtractor;
+				PRODUCT_NAME = HCVimeoVideoExtractor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A105C1752A0A49B30ED621B71E226CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C1391485F05B41BD35738A433056B7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C23A1CE3061E6F87132803355954FA15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 872381ACC17B8455EDB3E66A88885A65 /* Pods-DraggableDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DraggableDemo/Pods-DraggableDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DraggableDemo/Pods-DraggableDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C610DC87EBA2C21FBF0E7DBB21E510DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8F53571035AF4DA862E7C96F0C2409C /* HCVimeoVideoExtractor.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HCVimeoVideoExtractor/HCVimeoVideoExtractor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HCVimeoVideoExtractor/HCVimeoVideoExtractor-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HCVimeoVideoExtractor/HCVimeoVideoExtractor.modulemap";
+				PRODUCT_MODULE_NAME = HCVimeoVideoExtractor;
+				PRODUCT_NAME = HCVimeoVideoExtractor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1391485F05B41BD35738A433056B7FA /* Debug */,
+				A105C1752A0A49B30ED621B71E226CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBD00A858636BCACF04EFB929602A4A5 /* Build configuration list for PBXNativeTarget "HCVimeoVideoExtractor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C610DC87EBA2C21FBF0E7DBB21E510DE /* Debug */,
+				0F4C30DD4B298B79752CB2C52A98F2BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB456B540F41923C116472B578576F99 /* Build configuration list for PBXNativeTarget "Pods-DraggableDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C23A1CE3061E6F87132803355954FA15 /* Debug */,
+				09CF4B787EE061FE18E3FEA5B844C04E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,11 @@
+framework module FRCustomPIPViewController {
+  umbrella header "FRCustomPIPViewController.h"
+
+  export *
+  module * { export * }
+}
+
+module FRCustomPIPViewController.Swift {
+    header "FRCustomPIPViewController-Swift.h"
+    requires objc
+}
